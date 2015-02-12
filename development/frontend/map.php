@@ -12,8 +12,8 @@
 <!--         <div class="statusbar warning">
             <span><i class="warning sign icon"></i>Warning</span>
         </div> -->
-        <div class="statusbar warning">
-            <span><i class="remove icon"></i>Warning</span>
+        <div class="statusbar danger">
+            <span><i class="remove icon"></i>Danger</span>
         </div>
 
         <div id="map-canvas" class="map-canvas"></div>
