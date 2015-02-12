@@ -155,6 +155,17 @@ body {
 .message-box .distance small {
     font-size: 12px;
 }
+.message-box.small {
+    height: 48px;
+    padding: 5px 10px 0px 10px;
+}
+.message-box a {
+    color: #fff;
+    font-size: 30px;
+}
+.message-box .videos {
+    float: right;
+}
 
 @-moz-keyframes danger {
     0%   { background: #e40105; border-bottom-color: #b40105; }

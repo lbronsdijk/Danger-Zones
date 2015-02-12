@@ -14,8 +14,7 @@ $(function()
 {
     FastClick.attach(document.body);
 
-    // init google maps
-    initGoogleMaps();
+    initReport();
 
     function initGoogleMaps() 
     {
@@ -37,5 +36,15 @@ $(function()
     if($('.map-canvas').length !== 0)
     {
         google.maps.event.addDomListener(window, 'load', initGoogleMaps);
+    }
+
+    function initReport()
+    {
+        $('.issue-type').dropdown();
+
+        $('.report').click(function()
+        {
+            $('.report-modal').modal('show');
+        });
     }
 });

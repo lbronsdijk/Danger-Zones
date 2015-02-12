@@ -4,15 +4,7 @@
 
 <body>
     <div class="map">
-        <!--
-        <div class="statusbar safe">
-            <span><i class="checkmark icon"></i>Safe</span>
-        </div>
-        -->
-<!--         <div class="statusbar warning">
-            <span><i class="warning sign icon"></i>Warning</span>
-        </div> -->
-        <div class="statusbar danger">
+        <div class="statusbar dangerP">
             <span><i class="remove icon"></i>Danger</span>
         </div>
 

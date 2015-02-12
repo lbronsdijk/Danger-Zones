@@ -17,7 +17,7 @@
                                 <input type="text" placeholder="Yes or no">
                             </div>
                         </div>
-                        <a href="map.php" class="ui button submit">
+                        <a href="map-safe.php" class="ui button submit">
                             <i class="angle right icon"></i>
                         </a>
                     </div>
