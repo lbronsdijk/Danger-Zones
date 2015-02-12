@@ -40,11 +40,129 @@ body {
     background-size: cover;
 }
 .alcohol-check h2 {
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 30px;
+}
+.alcohol-check h3 {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
 .alcohol-check .ui.form input, .alcohol-check .ui.form input:focus {
     background-color: rgba(255,255,255,.05);
     border-radius: 11px;
     border: 1px solid #fff;
     color: #fff;
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.alcohol-check .submit {
+    border: 3px #fff solid;
+    background-color: rgba(255,255,255,.05);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.alcohol-check .submit:hover {
+    background-color: transparent;
+}
+.alcohol-check .submit .icon {
+    color: #fff;
+    font-size: 60px;
+    margin: 0em 0.4em 0em -0.2em !important;
+}
+
+.map,
+.map-canvas {
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+.map-canvas {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.statusbar {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.statusbar span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 14px;
+}
+.statusbar span .icon {
+    font-size: 26px;
+}
+.statusbar.safe {
+    background: #31aa39;
+    border-bottom-color: #26862d;
+}
+.statusbar.warning {
+    background: #ecbc03;
+    border-bottom-color: #c49d08;
+}
+.statusbar.danger {
+    background: #e40105;
+    border-bottom-color: #b40105;
+            animation:danger 2s;
+       -moz-animation:danger 2s infinite;
+    -webkit-animation:danger 2s infinite;
+}
+
+.message-box {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 74px;
+    padding: 10px;
+    color: #fff;
+    background: rgba(33,39,47,.93);
+    z-index: 1;
+}
+.message-box span {
+    display: block;
+}
+.message-box .warning {
+    font-weight: 700;
+    font-size: 20px;
+}
+.message-box .subline {
+    float: left;
+    font-weight: 300;
+    font: 15px;
+}
+.message-box .distance {
+    float: right;
+    font-weight: 700;
+    font-size: 25px;
+}
+.message-box .distance small {
+    font-size: 12px;
+}
+
+@-moz-keyframes danger {
+    0%   { background: #e40105; border-bottom-color: #b40105; }
+    50%  { background: #a10306; border-bottom-color: #8e0205; }
+    100% { background: #e40105; border-bottom-color: #b40105; }
+}
+@-webkit-keyframes danger {
+    0%   { background: #e40105; border-bottom-color: #b40105; }
+    50%  { background: #a10306; border-bottom-color: #8e0205; }
+    100% { background: #e40105; border-bottom-color: #b40105; }
 }

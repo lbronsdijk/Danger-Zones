@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Danger Zones</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/static/css/app.css">
-    <script src="/static/vendor/js/jquery-2.1.3.min.js"></script>
-    <script src="/static/vendor/js/semantic.js"></script>
-    <script src="/static/js/app.js"></script>
-    <!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
+<?php
+    include('partials/header.php');
+?>
 <body>
     <div class="splashscreen">
         <div class="container">
@@ -28,10 +17,15 @@
                                 <input type="text" placeholder="Yes or no">
                             </div>
                         </div>
+                        <a href="map.php" class="ui button submit">
+                            <i class="angle right icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-</html>
+<?php
+    include('partials/footer.php');
+?>
